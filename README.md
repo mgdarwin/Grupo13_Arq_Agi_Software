@@ -1,5 +1,5 @@
 # Grupo13_Arq_Agi_Software
-Repositorio del grupo 11 de MISO
+Repositorio del grupo 13 de MISO
 
 
 ## Ejecución
