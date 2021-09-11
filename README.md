@@ -64,4 +64,4 @@ usando postman, llamar a `localhost:5001/servicio` con el método `POST`
 
 Para invocar alguno de los dos servicios:
 
-usando postman, llamar a `localhost:5002/facturar` con el método `GET` o `POST`
+usando postman, llamar a `localhost:5002/facturar` o con el método `GET` o `POST`
