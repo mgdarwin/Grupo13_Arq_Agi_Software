@@ -18,7 +18,7 @@ def reporte_queue_consulta(operacion, payload):
 @celery.task(name="registrar_servicio_medico")
 def registrar_servicio_medico(operacion, payload):
   logger.info('facturacion-queue-service', 'registrar_servicio_medico', 'solicitud registro servicio recibida')
-  content = requests.post('http://127.0.0.1:5002/facturar')
+  content = requests.post('http://127.0.0.1:5002/registrar')
   
 
 #celery -A tareas worker -l info -Q fact_queue -E

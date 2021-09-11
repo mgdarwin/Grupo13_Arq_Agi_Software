@@ -14,6 +14,24 @@ app_context.push()
 
 api = Api(app)
 
+class VistaFacturacion(Resource):
+  def post(self):
+    logs.info('facturacion-service', 'post', 'respuesta solicitud de reporte')
+    args = ('generar', True)
+
+
+class GestionFacturacion(Resource):
+  def post(self):
+    logs.info('facturacion-service', 'post', 'registro de servicio medico realizado')
+    args = ('generar', True)
+    
+
+api.add_resource(VistaFacturacion, '/facturar')
+api.add_resource(GestionFacturacion, '/registrar')
+
+
+
+
 # @celery_app.task(name="reporte_queue_solicitud")
 # def reporte_queue_solicitud():
 #     logs.info('facturacion-service', 'reporte_queue_solicitud', 'generar reporte facturacion')
@@ -36,23 +54,3 @@ api = Api(app)
 
 # verificar = VerificaCola()
 # verificar.verifica_cola()
-
-
-class VistaFacturacion(Resource):
-
-  def post(self):
-    logs.info('facturacion-service', 'post', 'enviar solicitud de reporte')
-    args = ('generar', True)
-    sleep(5)
-    logs.info('facturacion-service', 'post', 'enviar solicitud de reporte')
-    return 'ok',200
-    
-
-  #def get(self):
-  #  logs.info('reporte-service', 'get', 'consultar estado de reporte')
-  #  args = ('consultar', True)
-  #  reporte_queue_consulta.apply_async(args=args, queue='fact_queue')
-
-
-api.add_resource(VistaFacturacion, '/facturar')
-
