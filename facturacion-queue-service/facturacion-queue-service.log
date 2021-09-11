@@ -8,3 +8,7 @@
 2021-09-11 23:10:14.920862, facturacion-queue-service, reporte_queue_consulta, consulta reporte recibida, 30
 2021-09-11 23:11:45.100358, facturacion-queue-service, reporte_queue_consulta, consulta reporte recibida, 30
 2021-09-11 23:11:47.543393, facturacion-queue-service, registrar_servicio_medico, solicitud registro servicio recibida, 30
+2021-09-11 23:23:38.753837, facturacion-queue-service, registrar_servicio_medico, solicitud registro servicio recibida, 30
+2021-09-11 23:23:43.775237, facturacion-queue-service, reporte_queue_consulta, consulta reporte recibida, 30
+2021-09-11 23:25:01.870344, facturacion-queue-service, registrar_servicio_medico, solicitud registro servicio recibida, 30
+2021-09-11 23:25:03.783836, facturacion-queue-service, reporte_queue_consulta, consulta reporte recibida, 30
