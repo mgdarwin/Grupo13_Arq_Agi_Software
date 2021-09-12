@@ -10,10 +10,10 @@ def reporte_queue_solicitud(operacion, payload):
   logger.info('facturacion-queue-service', 'reporte_queue_solicitud', 'solicitud reporte recibida')
   content = requests.post('http://127.0.0.1:5002/facturar')
 
-@celery.task(name="reporte_queue_consulta")
-def reporte_queue_consulta(operacion, payload):
-  logger.info('facturacion-queue-service', 'reporte_queue_consulta', 'consulta reporte recibida')
-  content = requests.post('http://127.0.0.1:5002/facturar')
+# @celery.task(name="reporte_queue_consulta")
+# def reporte_queue_consulta(operacion, payload):
+#   logger.info('facturacion-queue-service', 'reporte_queue_consulta', 'consulta reporte recibida')
+#   content = requests.post('http://127.0.0.1:5002/facturar')
 
 @celery.task(name="registrar_servicio_medico")
 def registrar_servicio_medico(operacion, payload):

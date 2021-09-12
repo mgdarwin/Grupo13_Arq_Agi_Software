@@ -1,10 +1,7 @@
 from facturacion_microserv import create_app
 from flask_restful import Api, Resource
-from celery import Celery
 from .logger import Logger
 from time import sleep
-
-celery_app = Celery(__name__, broker='redis://127.0.0.1:6379/0')
 
 logs = Logger()
 
@@ -17,13 +14,16 @@ api = Api(app)
 class VistaFacturacion(Resource):
   def post(self):
     logs.info('facturacion-service', 'post', 'respuesta solicitud de reporte')
-    args = ('generar', True)
+    sleep(100)
+    logs.info('facturacion-service', 'post', 'respuesta servicio de entrega reporte')
 
 
 class GestionFacturacion(Resource):
   def post(self):
     logs.info('facturacion-service', 'post', 'registro de servicio medico realizado')
-    args = ('generar', True)
+    sleep(5)
+    logs.info('facturacion-service', 'post', 'respuesta servicio de registro medico realizado')
+
     
 
 api.add_resource(VistaFacturacion, '/facturar')
