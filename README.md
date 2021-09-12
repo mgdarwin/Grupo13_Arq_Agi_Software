@@ -1,7 +1,6 @@
 # Grupo13_Arq_Agi_Software
 Repositorio del grupo 13 de MISO
 
-
 ## Ejecución
 
 Las carpetas reportes_service, facturacion-queue-service, facturacion-service y gestion_medica_service son proyectos de Python independientes, que requieren su propio virtual environment, tienen dependencias cada una y por lo tanto es mejor iniciar un venv por cada carpeta.
@@ -65,3 +64,4 @@ usando postman, llamar a `localhost:5001/servicio` con el método `POST`
 Para invocar alguno de los dos servicios:
 
 usando postman, llamar a `localhost:5002/facturar` o con el método `GET` o `POST`
+
