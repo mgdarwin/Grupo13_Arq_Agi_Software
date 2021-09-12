@@ -4,7 +4,7 @@ Repositorio del grupo 13 de MISO
 
 ## Ejecución
 
-Las carpetas reportes_service, facturacion-queue-service, facturacion-service y ________ son proyectos de Python independientes, que requieren su propio virtual environment, tienen dependencias cada una y por lo tanto es mejor iniciar un venv por cada carpeta.
+Las carpetas reportes_service, facturacion-queue-service, facturacion-service y gestion_medica_service son proyectos de Python independientes, que requieren su propio virtual environment, tienen dependencias cada una y por lo tanto es mejor iniciar un venv por cada carpeta.
 
 Orden de Ejecución (desde una nueva terminal):
 
