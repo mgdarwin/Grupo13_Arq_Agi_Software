@@ -33,7 +33,7 @@ def login():
 def protected():
     logs.info('autorizador-service', 'get', 'Identificacion de acceso para el usuario actual con get_jwt_identity')
     current_user = get_jwt_identity()
-    logs.info('autorizador-service', 'get', 'Usuario actual se encuentra autenticado')
+    logs.info('autorizador-service', 'get - Usuario actual se encuentra autenticado', current_user)
     return jsonify(logged_in_as=current_user), 200
 
 jwt = JWTManager(app)
