@@ -68,7 +68,7 @@ usando postman, llamar a `localhost:5002/facturar` o con el método `GET` o `POS
 - Ejecutar el microservicio de **autorizador** (desde una nueva terminal):
 
 * Acceder a la carpeta `autorizador_service`,
-* iniciar el ambiente (previamente creado) con `source ./env/bin/activate`,
+* iniciar el ambiente (previamente creado) con `source ./venv/bin/activate`,
 * instalar dependencias con `pip install -r ./requirements.txt`,
 * ejecutar flask con `cd autorizador_microserv && flask run --port 5003`
 
