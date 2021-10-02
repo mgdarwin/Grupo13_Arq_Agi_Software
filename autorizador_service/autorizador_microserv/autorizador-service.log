@@ -1,0 +1,10 @@
+2021-10-02 14:51:34.798614, autorizador-service, post - usuario autorizado, test, 30
+2021-10-02 14:52:53.042795, autorizador-service, post - usuario autorizado, test, 30
+2021-10-02 14:52:53.043441, autorizador-service, post - token acceso, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzMzE4NjM3MywianRpIjoiNGZkNzI0NjktYjViYS00ZWU3LTkzOTYtYmE0ZGQ2OWMzMWVhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InRlc3QiLCJuYmYiOjE2MzMxODYzNzMsImV4cCI6MTYzMzE4NzI3M30.9fBafGFe2fPe-qORs26t4T-SlGZFh1vnVA6TTU1VZ5o, 30
+2021-10-02 14:53:19.704820, autorizador-service, post - usuario no autorizado, test, 30
+2021-10-02 14:59:58.508801, autorizador-service, post - usuario no autorizado, test, 30
+2021-10-02 15:00:45.462326, autorizador-service, post - usuario no autorizado, test, 30
+2021-10-02 15:01:13.795061, autorizador-service, post - usuario autorizado, test, 30
+2021-10-02 15:01:13.795917, autorizador-service, post - token acceso, eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzMzE4Njg3MywianRpIjoiZDQ5MmRjZGUtMzE3NS00MWMyLWE2ZjQtYzViNzkyMDExZDY0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InRlc3QiLCJuYmYiOjE2MzMxODY4NzMsImV4cCI6MTYzMzE4Nzc3M30.pEWMleha-WuwsipFe4L5HzXeQkPiagHl4ONmcyyUjgg, 30
+2021-10-02 15:02:23.302815, autorizador-service, get, Identificacion de acceso para el usuario actual con get_jwt_identity, 30
+2021-10-02 15:02:23.302945, autorizador-service, get, Usuario actual se encuentra autenticado, 30

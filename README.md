@@ -65,3 +65,14 @@ Para invocar alguno de los dos servicios:
 
 usando postman, llamar a `localhost:5002/facturar` o con el método `GET` o `POST`
 
+- Ejecutar el microservicio de **autorizador** (desde una nueva terminal):
+
+* Acceder a la carpeta `autorizador_service`,
+* iniciar el ambiente (previamente creado) con `source ./env/bin/activate`,
+* instalar dependencias con `pip install -r ./requirements.txt`,
+* ejecutar flask con `cd autorizador_microserv && flask run --port 5003`
+
+Para invocar alguno de los dos servicios:
+
+usando postman, llamar a `localhost:5003/login` capacidad de entrega de token con el método `POST`
+usando postman, llamar a `localhost:5003/protected` capacidad de validación de usuario con el método `GET` 
